@@ -2,57 +2,57 @@ import React from 'react';
 import { Twitter, Instagram, Linkedin, Github } from 'lucide-react';
 
 const Footer = () => {
-    return (
-        <footer className="footer-section">
-            <div className="container">
-                <div className="footer-grid">
-                    <div className="footer-brand">
-                        <h3 className="footer-logo">FinTrack</h3>
-                        <p>Empowering you to reach your financial potential.</p>
-                        <div className="social-links">
-                            <a href="#" className="social-link"><Twitter size={20} /></a>
-                            <a href="#" className="social-link"><Instagram size={20} /></a>
-                            <a href="#" className="social-link"><Linkedin size={20} /></a>
-                            <a href="#" className="social-link"><Github size={20} /></a>
-                        </div>
-                    </div>
-
-                    <div className="footer-column">
-                        <h4>Product</h4>
-                        <ul>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">FAQ</a></li>
-                        </ul>
-                    </div>
-
-                    <div className="footer-column">
-                        <h4>Company</h4>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-
-                    <div className="footer-column">
-                        <h4>Legal</h4>
-                        <ul>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">Security</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} FinTrack. All rights reserved.</p>
-                </div>
+  return (
+    <footer className="footer-section">
+      <div className="container">
+        <div className="footer-grid">
+          <div className="footer-brand">
+            <h3 className="footer-logo">Emerald Finance</h3>
+            <p>Empowering you to reach your financial potential.</p>
+            <div className="social-links">
+              <a href="#" className="social-link"><Twitter size={20} /></a>
+              <a href="#" className="social-link"><Instagram size={20} /></a>
+              <a href="#" className="social-link"><Linkedin size={20} /></a>
+              <a href="#" className="social-link"><Github size={20} /></a>
             </div>
+          </div>
 
-            <style>{`
+          <div className="footer-column">
+            <h4>Product</h4>
+            <ul>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div className="footer-column">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div className="footer-column">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Security</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="footer-bottom">
+          <p>&copy; {new Date().getFullYear()} Emerald Finance. All rights reserved.</p>
+        </div>
+      </div>
+
+      <style>{`
         .footer-section {
           background-color: var(--color-bg-main);
           padding: 5rem 0 2rem;
@@ -137,8 +137,8 @@ const Footer = () => {
           }
         }
       `}</style>
-        </footer>
-    );
+    </footer>
+  );
 };
 
 export default Footer;

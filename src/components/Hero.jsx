@@ -1,43 +1,43 @@
 import React from 'react';
 
 const Hero = () => {
-    return (
-        <section className="hero-section">
-            <div className="container hero-container">
-                <div className="hero-content">
-                    <h1 className="hero-title">
-                        Your Finance, <br />
-                        <span className="text-gradient"> reimagined.</span>
-                    </h1>
-                    <p className="hero-subtitle">
-                        Midnight Aphelion is the next-generation budget tracker that simplifies your financial life.
-                        Track, analyze, and grow your wealth with a beautiful, intuitive interface.
-                    </p>
-                    <div className="hero-actions">
-                        <button className="btn btn-primary">Start Tracking Free</button>
-                        <button className="btn btn-secondary">View Demo</button>
-                    </div>
-                </div>
+  return (
+    <section className="hero-section">
+      <div className="container hero-container">
+        <div className="hero-content">
+          <h1 className="hero-title">
+            Your Finance, <br />
+            <span className="text-gradient"> reimagined.</span>
+          </h1>
+          <p className="hero-subtitle">
+            Emerald Finance is the next-generation budget tracker that simplifies your financial life.
+            Track, analyze, and grow your wealth with a beautiful, intuitive interface.
+          </p>
+          <div className="hero-actions">
+            <button className="btn btn-primary">Start Tracking Free</button>
+            <button className="btn btn-secondary">View Demo</button>
+          </div>
+        </div>
 
-                <div className="hero-visual">
-                    {/* Abstract visual representation */}
-                    <div className="visual-circle circle-1"></div>
-                    <div className="visual-circle circle-2"></div>
-                    <div className="visual-card-mockup">
-                        <div className="mockup-header">
-                            <div className="dot red"></div>
-                            <div className="dot yellow"></div>
-                            <div className="dot green"></div>
-                        </div>
-                        <div className="mockup-body">
-                            <div className="graph-line"></div>
-                            <div className="graph-bar"></div>
-                        </div>
-                    </div>
-                </div>
+        <div className="hero-visual">
+          {/* Abstract visual representation */}
+          <div className="visual-circle circle-1"></div>
+          <div className="visual-circle circle-2"></div>
+          <div className="visual-card-mockup">
+            <div className="mockup-header">
+              <div className="dot red"></div>
+              <div className="dot yellow"></div>
+              <div className="dot green"></div>
             </div>
+            <div className="mockup-body">
+              <div className="graph-line"></div>
+              <div className="graph-bar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-            <style>{`
+      <style>{`
         .hero-section {
           padding: 8rem 0 6rem;
           background: radial-gradient(circle at top right, rgba(109, 40, 217, 0.1), transparent 40%),
@@ -195,8 +195,8 @@ const Hero = () => {
           }
         }
       `}</style>
-        </section>
-    );
+    </section>
+  );
 };
 
 export default Hero;

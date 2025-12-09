@@ -1,24 +1,24 @@
 import React from 'react';
 
 const Header = () => {
-    return (
-        <header className="header">
-            <div className="container header-container">
-                <a href="#" className="logo">FinTrack</a>
-                <nav className="nav">
-                    <ul className="nav-list">
-                        <li><a href="#features" className="nav-link">Features</a></li>
-                        <li><a href="#" className="nav-link">How it Works</a></li>
-                        <li><a href="#" className="nav-link">About</a></li>
-                    </ul>
-                </nav>
-                <div className="header-cta">
-                    <a href="#" className="btn-link">Log In</a>
-                    <button className="btn btn-primary">Sign Up</button>
-                </div>
-            </div>
+  return (
+    <header className="header">
+      <div className="container header-container">
+        <a href="#" className="logo">Emerald Finance</a>
+        <nav className="nav">
+          <ul className="nav-list">
+            <li><a href="#features" className="nav-link">Features</a></li>
+            <li><a href="#" className="nav-link">How it Works</a></li>
+            <li><a href="#" className="nav-link">About</a></li>
+          </ul>
+        </nav>
+        <div className="header-cta">
+          <a href="#" className="btn-link">Log In</a>
+          <button className="btn btn-primary">Sign Up</button>
+        </div>
+      </div>
 
-            <style>{`
+      <style>{`
         .header {
           position: sticky;
           top: 0;
@@ -79,8 +79,8 @@ const Header = () => {
           }
         }
       `}</style>
-        </header>
-    );
+    </header>
+  );
 };
 
 export default Header;
